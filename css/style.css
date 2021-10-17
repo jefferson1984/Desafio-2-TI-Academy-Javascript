@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 64px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  
+
+/*######################################## HEADER ################################# */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(-90deg,#2196F3,#3D5AFE, #0D47A1);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+
+
+div.titulos{
+    margin-bottom: 50px;
+   
+}
+
+h1.titulo{
+    
+    font-family: Verdana, Geneva, Tahoma;
+    color: #fff;
+   
+    text-align: center;
+}
+
+h4.subtitulo{
+    font-family: Verdana, Geneva, Tahoma;
+    color: #fff;
+    
+    margin-top: 5px;
+    
+}
+
+ span{
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     margin-top: 180px;
+     color:#2196F3;
+     background-color: #fff;
+    
+     z-index: 1;
+    
+     position: absolute;
+     font-size: 64px;
+     padding: 15px;
+
+ }
+ /*#############################################  MAIN ####################################*/
+
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+form.container{
+     display: flex;
+     flex-direction: column;
+     margin-top: 100px;
+    width: 400px;
+    height: 400px;
+   
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+label{
+    margin-top: 5px;
+}
+
+input{
+    height: 30px;
+    border-radius: 2px;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.btn{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #2196F3;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    border-bottom:2px solid black;
+    cursor: pointer;
+}
